@@ -25,41 +25,41 @@ function App() {
 
       {/* Navbar */}
 
-      <nav className="flex justify-between items-center px-10 py-6 bg-slate-900 sticky top-0 z-50 shadow-lg">
+      <nav className="flex flex-col md:flex-row justify-between items-center px-6 md:px-10 py-4 md:py-6 bg-slate-900 sticky top-0 z-50 shadow-lg">
 
-        <h1 className="text-3xl font-bold text-cyan-400">
-          Jainam.dev
-        </h1>
+  <h1 className="text-2xl md:text-3xl font-bold text-cyan-400 mb-4 md:mb-0">
+    Jainam.dev
+  </h1>
 
-        <ul className="flex gap-8 text-lg">
+  <ul className="flex flex-wrap justify-center gap-4 md:gap-8 text-base md:text-lg">
 
-          <li>
-            <a href="#about" className="hover:text-cyan-400 transition">
-              About
-            </a>
-          </li>
+    <li>
+      <a href="#about" className="hover:text-cyan-400 transition">
+        About
+      </a>
+    </li>
 
-          <li>
-            <a href="#skills" className="hover:text-cyan-400 transition">
-              Skills
-            </a>
-          </li>
+    <li>
+      <a href="#skills" className="hover:text-cyan-400 transition">
+        Skills
+      </a>
+    </li>
 
-          <li>
-            <a href="#projects" className="hover:text-cyan-400 transition">
-              Projects
-            </a>
-          </li>
+    <li>
+      <a href="#projects" className="hover:text-cyan-400 transition">
+        Projects
+      </a>
+    </li>
 
-          <li>
-            <a href="#contact" className="hover:text-cyan-400 transition">
-              Contact
-            </a>
-          </li>
+    <li>
+      <a href="#contact" className="hover:text-cyan-400 transition">
+        Contact
+      </a>
+    </li>
 
-        </ul>
+  </ul>
 
-      </nav>
+</nav>
 
       {/* Hero Section */}
 
