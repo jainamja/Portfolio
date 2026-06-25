@@ -129,15 +129,15 @@ function App() {
 
         <div className="flex gap-8 text-4xl mt-10">
 
-          <a href="#">
+          <a href="https://github.com/jainamja/">
             <FaGithub className="hover:text-cyan-400 transition" />
           </a>
 
-          <a href="#">
+          <a href="https://www.linkedin.com/in/jainamja/">
             <FaLinkedin className="hover:text-cyan-400 transition" />
           </a>
 
-          <a href="#">
+          <a href="https://www.instagram.com/jainam_0512/">
             <FaInstagram className="hover:text-cyan-400 transition" />
           </a>
 
