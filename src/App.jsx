@@ -133,7 +133,7 @@ function App() {
             <FaGithub className="hover:text-cyan-400 transition" />
           </a>
 
-          <a href="https://www.linkedin.com/in/jainamja/">
+          <a href="https://www.linkedin.com/in/jainam-jadav-287380321/">
             <FaLinkedin className="hover:text-cyan-400 transition" />
           </a>
 
