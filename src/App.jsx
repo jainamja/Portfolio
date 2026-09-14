@@ -89,9 +89,9 @@ function App() {
       {/* Hero Section */}
 
       <section className="relative min-h-screen flex flex-col justify-center items-center text-center px-6 overflow-hidden">
-        <div className="absolute w-72 h-72 bg-cyan-500 rounded-full blur-[120px] opacity-20 top-20 left-10"></div>
+        <div className="absolute w-72 h-72 bg-cyan-500 rounded-full blur-[120px] opacity-20 top-20 left-10 pointer-events-none -z-10"></div>
 
-        <div className="absolute w-72 h-72 bg-blue-500 rounded-full blur-[120px] opacity-20 bottom-10 right-10"></div>
+        <div className="absolute w-72 h-72 bg-blue-500 rounded-full blur-[120px] opacity-20 bottom-10 right-10 pointer-events-none -z-10"></div>
 
         <motion.h1
           initial={{ opacity: 0, y: -50 }}
@@ -132,7 +132,7 @@ function App() {
 
         {/* Buttons */}
 
-        <div className="mt-8 flex gap-6">
+        <div className="mt-8 flex gap-6 relative z-10">
 
           <a
             href="#projects"
