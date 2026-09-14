@@ -551,6 +551,59 @@ function App() {
 
 </motion.div>
 
+    {/* Project Card: CareerLens */}
+    <motion.div
+      whileHover={{ scale: 1.05 }}
+      className="bg-slate-800 rounded-3xl overflow-hidden shadow-2xl"
+    >
+
+      <img
+        src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
+        alt="CareerLens project"
+        className="h-52 w-full object-cover"
+      />
+
+      <div className="p-6">
+
+        <h2 className="text-2xl font-bold text-cyan-400">
+          CareerLens
+        </h2>
+
+        <p className="text-slate-300 mt-4">
+          Intelligent ATS web app that matches your resume to job descriptions, tracks applications via a Kanban board, and visualizes analytics with a dark glassmorphism UI.
+        </p>
+
+        <div className="flex flex-wrap gap-2 mt-4">
+          <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Django</span>
+          <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Python</span>
+          <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">HTMX</span>
+          <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">PostgreSQL</span>
+        </div>
+
+        <div className="flex gap-4 mt-6">
+
+          <a
+            href="https://careerlens-1k9t.onrender.com/"
+            target="_blank" rel="noreferrer"
+            className="bg-cyan-400 text-black px-4 py-2 rounded-xl font-semibold hover:scale-105 transition"
+          >
+            Live Demo
+          </a>
+
+          <a
+            href="https://github.com/jainamja/CareerLens"
+            target="_blank" rel="noreferrer"
+            className="border border-cyan-400 px-4 py-2 rounded-xl hover:bg-cyan-400 hover:text-black transition"
+          >
+            GitHub
+          </a>
+
+        </div>
+
+      </div>
+
+    </motion.div>
+
   </div>
 
 </section>
