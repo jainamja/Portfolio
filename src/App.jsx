@@ -421,7 +421,8 @@ function App() {
         <div className="flex gap-4 mt-6">
 
           <a
-            href="#"
+            href="https://student-performance-predictor-4-fc1p.onrender.com"
+            target="_blank" rel="noreferrer"
             className="bg-cyan-400 text-black px-4 py-2 rounded-xl font-semibold hover:scale-105 transition"
           >
             Live Demo
