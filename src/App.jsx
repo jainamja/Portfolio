@@ -398,6 +398,47 @@ function App() {
       </div>
     </motion.div>
 
+    {/* Project Card: Laptop Price Predictor */}
+    <motion.div
+      whileHover={{ scale: 1.05 }}
+      className="bg-slate-800 rounded-3xl overflow-hidden shadow-2xl"
+    >
+      <img
+        src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853"
+        alt="Laptop Price Predictor"
+        className="h-52 w-full object-cover"
+      />
+      <div className="p-6">
+        <h2 className="text-2xl font-bold text-cyan-400">
+          Laptop Price Predictor
+        </h2>
+        <p className="text-slate-300 mt-4">
+          An AI-powered web application built with Django and Machine Learning to predict laptop prices based on specifications. Features a modern glassmorphism UI and an analytics dashboard.
+        </p>
+        <div className="flex flex-wrap gap-2 mt-4">
+          <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Python</span>
+          <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Django</span>
+          <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Machine Learning</span>
+          <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Scikit-learn</span>
+        </div>
+        <div className="flex gap-4 mt-6">
+          <a
+            href="https://laptop-price-predictor-ph3o.onrender.com"
+            target="_blank" rel="noreferrer"
+            className="bg-cyan-400 text-black px-4 py-2 rounded-xl font-semibold hover:scale-105 transition"
+          >
+            Live Demo
+          </a>
+          <a
+            href="https://github.com/jainamja/Laptop_Price_Predictor" target="_blank" rel="noreferrer"
+            className="border border-cyan-400 px-4 py-2 rounded-xl hover:bg-cyan-400 hover:text-black transition"
+          >
+            GitHub
+          </a>
+        </div>
+      </div>
+    </motion.div>
+
     {/* Project Card: FoodVerse */}
     <motion.div
       whileHover={{ scale: 1.05 }}
