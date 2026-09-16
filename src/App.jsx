@@ -313,165 +313,30 @@ function App() {
   <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl">
 
     {/* Project Card 1 */}
-    {/* Featured Project - FoodVerse */}
-
-<motion.div
-  whileHover={{ scale: 1.05 }}
-  className="bg-slate-800 rounded-3xl overflow-hidden shadow-2xl"
->
-
-  <img
-  src="https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-  alt="FoodVerse"
-  className="h-52 w-full object-cover"
-/>
-
-  <div className="p-6">
-
-    <h2 className="text-2xl font-bold text-cyan-400">
-      FoodVerse
-    </h2>
-
-    <p className="text-slate-300 mt-4">
-      A full-stack MERN food ordering platform where users can browse restaurants,
-      explore menus, manage carts, place orders, and track deliveries through a
-      modern, responsive interface.
-    </p>
-
-    <div className="flex flex-wrap gap-2 mt-4">
-
-      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">
-        React
-      </span>
-
-      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">
-        Node.js
-      </span>
-
-      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">
-        Express
-      </span>
-
-      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">
-        MongoDB
-      </span>
-
-      <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">
-        JWT
-      </span>
-
-    </div>
-
-    <div className="flex gap-4 mt-6">
-
-      <a
-        href="https://foodverse-chi.vercel.app/"
-        target="_blank"
-        rel="noreferrer"
-        className="bg-cyan-400 text-black px-4 py-2 rounded-xl font-semibold hover:scale-105 transition"
-      >
-        Live Demo
-      </a>
-
-      <a
-        href="https://github.com/jainamja/Foodverse"
-        target="_blank"
-        rel="noreferrer"
-        className="border border-cyan-400 px-4 py-2 rounded-xl hover:bg-cyan-400 hover:text-black transition"
-      >
-        GitHub
-      </a>
-
-    </div>
-
-  </div>
-
-</motion.div>
-
-    <motion.div
-      whileHover={{ scale: 1.05 }}
-      className="bg-slate-800 rounded-3xl overflow-hidden shadow-2xl"
-    >
-
-      <img
-        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
-        alt="project"
-        className="h-52 w-full object-cover"
-      />
-
-      <div className="p-6">
-
-        <h2 className="text-2xl font-bold text-cyan-400">
-          Student Performance Predictor
-        </h2>
-
-        <p className="text-slate-300 mt-4">
-          Machine Learning + Django based web app
-          that predicts student performance using
-          analytics and charts.
-        </p>
-
-        <div className="flex flex-wrap gap-2 mt-4">
-          <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Python</span>
-          <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Django</span>
-          <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Machine Learning</span>
-          <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Data Analytics</span>
-        </div>
-
-        <div className="flex gap-4 mt-6">
-
-          <a
-            href="https://student-performance-predictor-4-fc1p.onrender.com"
-            target="_blank" rel="noreferrer"
-            className="bg-cyan-400 text-black px-4 py-2 rounded-xl font-semibold hover:scale-105 transition"
-          >
-            Live Demo
-          </a>
-
-          <a
-            href="https://github.com/jainamja/Student_Performance_Predictor" target="_blank"
-            className="border border-cyan-400 px-4 py-2 rounded-xl hover:bg-cyan-400 hover:text-black transition"
-          >
-            GitHub
-          </a>
-
-        </div>
-
-      </div>
-
-    </motion.div>
-
     {/* Project Card: CareerLens */}
     <motion.div
       whileHover={{ scale: 1.05 }}
       className="bg-slate-800 rounded-3xl overflow-hidden shadow-2xl"
     >
-
       <img
         src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
         alt="CareerLens project"
         className="h-52 w-full object-cover"
       />
-
       <div className="p-6">
-
         <h2 className="text-2xl font-bold text-cyan-400">
           CareerLens
         </h2>
-
         <p className="text-slate-300 mt-4">
           Intelligent ATS web app that matches your resume to job descriptions, tracks applications via a Kanban board, and visualizes analytics with a dark glassmorphism UI.
         </p>
-
         <div className="flex flex-wrap gap-2 mt-4">
           <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Django</span>
           <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Python</span>
           <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">HTMX</span>
           <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">PostgreSQL</span>
         </div>
-
         <div className="flex gap-4 mt-6">
-
           <a
             href="https://careerlens-1k9t.onrender.com/"
             target="_blank" rel="noreferrer"
@@ -479,7 +344,6 @@ function App() {
           >
             Live Demo
           </a>
-
           <a
             href="https://github.com/jainamja/CareerLens"
             target="_blank" rel="noreferrer"
@@ -487,11 +351,108 @@ function App() {
           >
             GitHub
           </a>
-
         </div>
-
       </div>
+    </motion.div>
 
+    {/* Project Card: Student Performance Predictor */}
+    <motion.div
+      whileHover={{ scale: 1.05 }}
+      className="bg-slate-800 rounded-3xl overflow-hidden shadow-2xl"
+    >
+      <img
+        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+        alt="project"
+        className="h-52 w-full object-cover"
+      />
+      <div className="p-6">
+        <h2 className="text-2xl font-bold text-cyan-400">
+          Student Performance Predictor
+        </h2>
+        <p className="text-slate-300 mt-4">
+          Machine Learning + Django based web app
+          that predicts student performance using
+          analytics and charts.
+        </p>
+        <div className="flex flex-wrap gap-2 mt-4">
+          <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Python</span>
+          <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Django</span>
+          <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Machine Learning</span>
+          <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Data Analytics</span>
+        </div>
+        <div className="flex gap-4 mt-6">
+          <a
+            href="https://student-performance-predictor-4-fc1p.onrender.com"
+            target="_blank" rel="noreferrer"
+            className="bg-cyan-400 text-black px-4 py-2 rounded-xl font-semibold hover:scale-105 transition"
+          >
+            Live Demo
+          </a>
+          <a
+            href="https://github.com/jainamja/Student_Performance_Predictor" target="_blank"
+            className="border border-cyan-400 px-4 py-2 rounded-xl hover:bg-cyan-400 hover:text-black transition"
+          >
+            GitHub
+          </a>
+        </div>
+      </div>
+    </motion.div>
+
+    {/* Project Card: FoodVerse */}
+    <motion.div
+      whileHover={{ scale: 1.05 }}
+      className="bg-slate-800 rounded-3xl overflow-hidden shadow-2xl"
+    >
+      <img
+        src="https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+        alt="FoodVerse"
+        className="h-52 w-full object-cover"
+      />
+      <div className="p-6">
+        <h2 className="text-2xl font-bold text-cyan-400">
+          FoodVerse
+        </h2>
+        <p className="text-slate-300 mt-4">
+          A full-stack MERN food ordering platform where users can browse restaurants,
+          explore menus, manage carts, place orders, and track deliveries through a
+          modern, responsive interface.
+        </p>
+        <div className="flex flex-wrap gap-2 mt-4">
+          <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">
+            React
+          </span>
+          <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">
+            Node.js
+          </span>
+          <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">
+            Express
+          </span>
+          <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">
+            MongoDB
+          </span>
+          <span className="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">
+            JWT
+          </span>
+        </div>
+        <div className="flex gap-4 mt-6">
+          <a
+            href="https://foodverse-chi.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="bg-cyan-400 text-black px-4 py-2 rounded-xl font-semibold hover:scale-105 transition"
+          >
+            Live Demo
+          </a>
+          <a
+            href="https://github.com/jainamja/Foodverse"
+            target="_blank"
+            rel="noreferrer"
+            className="border border-cyan-400 px-4 py-2 rounded-xl hover:bg-cyan-400 hover:text-black transition"
+          >
+            GitHub
+          </a>
+        </div>
+      </div>
     </motion.div>
 
   </div>
